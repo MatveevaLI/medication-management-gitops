@@ -21,7 +21,7 @@ spec:
 
         ports:
         - name: http
-          containerPort: 8082       # port na ktorom počúva kontajner, pomenovaný ako `http`
+          containerPort: 8080       # port na ktorom počúva kontajner, pomenovaný ako `http`
 
         resources:                  # určenie kvót pre využívané fyzické prostriedky
                                     # je dôležité pre riadenie záťaže v rámci kubernetes
