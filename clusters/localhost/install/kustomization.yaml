@@ -10,3 +10,6 @@ commonLabels:
 
 resources:
 - ../../../apps/matveeva-medication-management
+
+components:
+ - ../../../components/version-developers
