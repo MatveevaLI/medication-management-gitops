@@ -9,7 +9,11 @@ spec:
   navigation:
   # aplication context element
     - element: matveeva-medication-app   # element, ktorý bude vložený na stránku
-                                    # pri navigácii na zoznam čakajúcich
+      attributes:
+      - name: api-base
+        value: http://localhost:5000/api
+      - name: ambulance-id
+        value: bobulova                              # pri navigácii na zoznam čakajúcich
       path: matveeva-medication      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Matveeva Sprava liekov      # názov mikro aplikácie
       details: Spravuje zoznam liekov na ambulanciách
