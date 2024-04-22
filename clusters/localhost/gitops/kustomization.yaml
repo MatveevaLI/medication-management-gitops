@@ -16,3 +16,5 @@ resources:
  - ufe-controller.image-repository.yaml
  - ufe-controller.image-policy.yaml
  - image-update-automation.yaml
+ - medication-management-webapi.image-repository.yaml
+ - medication-management-webapi.image-policy.yaml

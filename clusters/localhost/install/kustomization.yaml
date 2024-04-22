@@ -10,6 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/matveeva-medication-management
+- ../../../apps/matveeva-medication-management-webapi
 
 components:
- - ../../../components/version-developers
+- ../../../components/version-developers
+- https://github.com/MatveevaLI/medication-management-webapi//deployments/kustomize/components/mongodb
+
+patches:
+ - path: patches/medication-management-webapi.service.yaml
