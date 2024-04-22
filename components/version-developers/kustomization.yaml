@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: matveevali/medication-management
   newName: matveevali/medication-management # {"$imagepolicy":  "wac-hospital:medication-management:name"}
-  newTag: main.20240330.1906 # {"$imagepolicy": "wac-hospital:medication-management:tag"}
+  newTag: main.20240420.1402 # {"$imagepolicy": "wac-hospital:medication-management:tag"}
 - name: milung/ufe-controller
   newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
   newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
