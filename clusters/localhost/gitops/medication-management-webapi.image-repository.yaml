@@ -4,5 +4,5 @@ metadata:
   name: medication-management-webapi
   namespace: wac-hospital
 spec:
-  image: matveeva/matveeva-medication-management-webapi
+  image: matveevali/matveeva-medication-management-webapi
   interval: 1m0s
