@@ -9,8 +9,8 @@ resources:
   - ../../../apps/matveeva-medication-management
   - ../../../apps/matveeva-medication-management-webapi
   - ../../../apps/mongo-express
+patches:
+  - path: patches/medication-management-webapi.service.yaml
 components:
   - ../../../components/version-developers
   - https://github.com/MatveevaLI/medication-management-webapi//deployments/kustomize/components/mongodb
-patches:
-  - path: patches/medication-management-webapi.service.yaml
