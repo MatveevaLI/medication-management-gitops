@@ -9,7 +9,7 @@ spec:
   # - umiestnený v namespace wac-hospital
   navigation:
   # aplication context element
-  - element: matveeva-medication-list # element, ktorý bude vložený na stránku                           # pri navigácii na zoznam čakajúcich
+  - element: matveeva-medication-app # element, ktorý bude vložený na stránku                           # pri navigácii na zoznam čakajúcich
     attributes:
     - name: api-base
       value: /matveeva-api
