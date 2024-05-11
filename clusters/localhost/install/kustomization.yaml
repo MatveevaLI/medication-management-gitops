@@ -6,11 +6,11 @@ namespace: wac-hospital # chceme tieto objekty umiestniť do `wac-hospital` name
 commonLabels:
   app.kubernetes.io/part-of: wac-hospital
 resources:
-  - ../../../apps/matveeva-medication-management
-  - ../../../apps/matveeva-medication-management-webapi
-  - ../../../apps/mongo-express
+- ../../../apps/matveeva-medication-management
+- ../../../apps/matveeva-ambulance-webapi
+- ../../../apps/mongo-express
 patches:
-  - path: patches/medication-management-webapi.service.yaml
+- path: patches/ambulance-webapi.service.yaml
 components:
-  - ../../../components/version-developers
-  - https://github.com/MatveevaLI/medication-management-webapi//deployments/kustomize/components/mongodb
+- ../../../components/version-developers
+- https://github.com/MatveevaLI/ambulance-webapi//deployments/kustomize/components/mongodb
