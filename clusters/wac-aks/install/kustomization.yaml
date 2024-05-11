@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: wac-hospital
 commonLabels:
   app.kubernetes.io/part-of: wac-hospital
-  app.kubernetes.io/name: matveeva-medication-management
+  app.kubernetes.io/name: medication
 resources:
 - ../../../apps/matveeva-medication-management
 - ../../../apps/matveeva-ambulance-webapi
