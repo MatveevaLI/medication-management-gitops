@@ -4,14 +4,14 @@ metadata:
   name: mongo-express
 spec:
   parentRefs:
-    - name: wac-hospital-gateway
+  - name: wac-hospital-gateway
   rules:
-    - matches:
-        - path:
-            type: PathPrefix
-            value: /mongo-express
-      backendRefs:
-        - group: ""
-          kind: Service
-          name: mongo-express
-          port: 8081
+  - matches:
+    - path:
+        type: PathPrefix
+        value: /mongo-express
+    backendRefs:
+    - group: ""
+      kind: Service
+      name: mongo-express
+      port: 8081

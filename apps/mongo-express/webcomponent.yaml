@@ -5,10 +5,10 @@ metadata:
 spec:
   module-uri: built-in
   navigation:
-    - element: ufe-frame
-      path: mongo-express
-      title: Mongo Express
-      details: UI Access to local Mongo DB
-      attributes:
-        - name: src
-          value: /mongo-express
+  - element: ufe-frame
+    path: mongo-express
+    title: Mongo Express
+    details: UI Access to local Mongo DB
+    attributes:
+    - name: src
+      value: /mongo-express
