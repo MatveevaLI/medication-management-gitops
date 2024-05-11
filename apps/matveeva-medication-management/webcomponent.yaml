@@ -12,7 +12,7 @@ spec:
   - element: matveeva-medication-app # element, ktorý bude vložený na stránku                           # pri navigácii na zoznam čakajúcich
     attributes:
     - name: api-base
-      value: http://localhost:30081/api
+      value: /matveeva-api
     - name: ambulance-id
       value: bobulova
     path: matveeva-medication # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
