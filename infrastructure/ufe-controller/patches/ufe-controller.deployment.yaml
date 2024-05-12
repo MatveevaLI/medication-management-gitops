@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - name: ufe-controller
-          env:
-            - name: BASE_URL
-              value: /ui/
+      - name: ufe-controller
+        env:
+          - name: BASE_URL
+            value: /ui/
