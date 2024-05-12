@@ -36,7 +36,7 @@ spec:
     - matches:
         - path:
             type: Exact
-            value: matveeva-openapi
+            value: /matveeva-openapi
       filters:
         - type: URLRewrite
           urlRewrite:
